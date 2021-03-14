@@ -102,7 +102,7 @@ class ContactData extends Component {
             {value: 'cheapest', displayValue: 'Cheapest'}
           ]
         },
-        value: '',
+        value: '',//TODO: will be fixed later
         validation: {},
         valid: true
       },
