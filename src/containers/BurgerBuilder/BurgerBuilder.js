@@ -27,17 +27,17 @@ class BurgerBuilder extends Component {
   }
 
   componentDidMount() {
-    axios.get('/ingredients.json')
-      .then(resp => {
-        this.setState({
-          ingredients: resp.data
-        })
-      })
-      .catch(error => {
-        this.setState({
-          error: error
-        });
-      });
+    // axios.get('/ingredients.json')
+    //   .then(resp => {
+    //     this.setState({
+    //       ingredients: resp.data
+    //     })
+    //   })
+    //   .catch(error => {
+    //     this.setState({
+    //       error: error
+    //     });
+    //   });
   }
 
   updatePurchaseState(ingredients) {
